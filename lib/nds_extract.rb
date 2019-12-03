@@ -49,7 +49,7 @@ def total_gross(source)
   index = 0
   puts directors_total = directors_totals(directors_database)
   puts directors_list = list_of_directors(directors_database)
-  reutnr total
+  return total
 end
 
 

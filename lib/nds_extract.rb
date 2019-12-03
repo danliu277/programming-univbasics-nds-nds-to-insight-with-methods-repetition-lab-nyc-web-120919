@@ -47,8 +47,9 @@ def total_gross(source)
   # return the total
   total = 0
   index = 0
-  puts directors_total = directors_totals(directors_database)
-  puts directors_list = list_of_directors(directors_database)
+  directors_total = directors_totals(directors_database)
+  directors_list = list_of_directors(directors_database)
+  puts directors_totals, directors_list
   return total
 end
 

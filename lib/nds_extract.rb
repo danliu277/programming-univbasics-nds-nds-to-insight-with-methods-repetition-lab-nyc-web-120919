@@ -45,9 +45,11 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-  result = {}
-  puts source
-  return result
+  total = 0
+  index = 0
+  puts directors_total = directors_totals(directors_database)
+  puts directors_list = list_of_directors(directors_database)
+  reutnr total
 end
 
 
